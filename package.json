@@ -1,0 +1,23 @@
+{
+  "main": "app.js",
+  "scripts": {
+    "daemon": "pm2 start bin/www.js -n ratemate-ui.server",
+    "start": "nodemon bin/www.js",
+    "test": "echo \"WARN: no test specified\" && exit 0"
+  },
+  "engines": {
+    "npm": "5.6.0",
+    "node": "9.6.1"
+  },
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.8",
+    "body-parser": "^1.18.3",
+    "axios": "^0.18.0",
+    "mongoose": "^5.3.13",
+    "morgan": "^1.9.1"
+  }
+}

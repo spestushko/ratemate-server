@@ -1,2 +1,6 @@
 # ratemate-server
-poc app for ci
+
+poc_gitlabCi
+
+
+Serves as a communication gateway into back-end of ratemate.
